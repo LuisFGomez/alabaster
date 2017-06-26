@@ -677,6 +677,10 @@ a:hover tt, a:hover code {
     div.sphinxsidebar {
         position: fixed;
         margin-left: 0;
+        top: 0;
+        bottom: 0;
+        overflow-x: hidden;
+        overflow-y: scroll;
     }
 }
 {%- endif %}
